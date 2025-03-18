@@ -1,0 +1,56 @@
+watch_config_changes: True
+
+global:
+  active_color:
+    colors: ["#b4befe", "#cba6f7"]
+    direction: 45deg
+
+  inactive_color:
+    colors: ["#313244", "#181825"]
+    direction:
+      start: [0.0, 1.0]
+      end: [1.0, 0.0]
+
+
+  initialize_delay: 200
+  unminimize_delay: 150
+
+  animations:
+    fps: 60
+
+    active:
+      - type: Fade
+        duration: 200
+        easing: EaseInOutQuad
+
+    inactive:
+      - type: Fade
+        duration: 200
+        easing: EaseInOutQuad
+
+
+window_rules:
+  - match: Class
+    name: "Windows.UI.Core.CoreWindow"
+    enabled: False
+
+  - match: Class
+    name: "XamlExplorerHostIslandWindow"
+    enabled: False
+
+  - match: Title
+    strategy: Contains
+    name: "Zebar"
+    enabled: False
+
+  - match: Title
+    name: "komorebi-bar"
+    enabled: False
+
+  - match: Title
+    name: "keyviz"
+    enabled: False
+
+  - match: Title
+    name: "Picture-in-Picture"
+    enabled: False

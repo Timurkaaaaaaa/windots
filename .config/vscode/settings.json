@@ -1,0 +1,49 @@
+{
+    // Workbench
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "Catppuccin Perfect Mocha",
+    "workbench.statusBar.visible": false,
+    "workbench.list.smoothScrolling": true,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editor.showIcons": true,
+
+    // Editor
+    "editor.fontFamily": "JetBrains Mono Nerd Font",
+    "editor.codeLensFontFamily": "\"JetBrains Mono\"",
+    "editor.linkedEditing": true,
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontSize": 22px,
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+
+    // Terminal
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+
+    // Window
+    "window.zoomLevel": -0.075,
+    "window.titleBarStyle": "native",
+    "window.title": "VS Code",
+    "window.menuBarVisibility": "toggle",
+    "window.customTitleBarVisibility": "never",
+
+    // Explorer
+    "explorer.confirmDragAndDrop": false,
+    "explorer.decorations.badges": true,
+
+    // Update
+    "update.mode": "none",
+    "update.showReleaseNotes": false,
+
+    // Files
+    "files.autoSave": "afterDelay",
+    "files.defaultLanguage": "plaintext",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": false,
+
+    // Other
+    "liveServer.settings.donotVerifyTags": true,
+}

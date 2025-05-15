@@ -9,13 +9,14 @@
     "workbench.tree.indent": 14,
 
     // Theme
-    "workbench.colorTheme": "Kanagawa Wave",
+    "workbench.colorTheme": "Catppuccin Mocha",
 
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": true,
 
     // Sidebar
     "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "hidden",
 
     // Status bar
     "workbench.statusBar.visible": false,
@@ -35,12 +36,10 @@
 
     // Window management
     "chat.commandCenter.enabled": false,
-    "workbench.layoutControl.enabled": false,
+    "workbench.layoutControl.enabled": true,
     "window.customTitleBarVisibility": "never",
     "window.titleBarStyle": "native",
     "window.menuBarVisibility": "toggle",
-
-    "workbench.activityBar.location": "hidden",
 
     // Zoom
     "window.zoomLevel": 2,

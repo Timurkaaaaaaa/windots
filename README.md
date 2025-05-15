@@ -6,7 +6,7 @@
 <img src="https://github.com/Timurkaaaaaaa/windots/blob/master/assets/vscode.png?raw=true">
 
 
-# About:
+# 💡 About
 **Hello everyone!**
 
 Welcome to windots! This repository contains my configuration files for the system.
@@ -15,17 +15,18 @@ I took inspiration from **[r/unixporn](https://www.reddit.com/r/unixporn/)** and
 
 --------------
 
-# Features
-- Beautiful **YASB**
-- Minimal **VSCode**
+# ✨ Features
+- 🌸 Beautiful **YASB**
+- **>_** Minimal **VSCode**
 - 😺 **Catppuccin** theme
 
 -------
 
-# Core System Info
-- **OS:** Windows 11
-- **Shell:** Powershell
-- **Top panel:** YASB
-- **App launcher:** Flow launcher
-- **Browser:** Firefox
-- **Colorscheme:** Catppuccin
+# ℹ️ Core System Info
+- **OS:** [Windows 11](https://www.microsoft.com/en-in/windows/windows-11/)
+- **Shell:** [Powershell](https://learn.microsoft.com/en-us/powershell/)
+- **Terminal Emulator:** [Windows Terminal](https://github.com/microsoft/terminal)
+- **Code Editor:** [VSCode](https://code.visualstudio.com/)
+- **Top panel:** [YASB](https://github.com/amnweb/yasb/)
+- **Browser:** [Firefox](https://www.mozilla.org/ru/firefox/)
+- **Colorscheme:** [Catppuccin](https://catppuccin.com/)

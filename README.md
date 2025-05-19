@@ -31,7 +31,9 @@ I took inspiration from **[r/unixporn](https://www.reddit.com/r/unixporn/)** and
 - **Browser:** [Firefox](https://www.mozilla.org/ru/firefox/)
 - **Colorscheme:** [Catppuccin](https://catppuccin.com/)
 
-## ℹ️ Whole System Info
+--------------------------------------
+
+# ℹ️ Whole System Info
 Information about my setup:
 
 **🪟 System**
@@ -54,6 +56,8 @@ Information about my setup:
 |--------|-------|
 |**Colorscheme**|[Catppuccin](https://catppuccin.com/)|
 |**Font**|[JetBrains Nerd Font](https://www.jetbrains.com/lp/mono/)|
+
+---------------------
 
 # 🔧 Setup
 ### 📊 YASB (Yet Another Status Bar)

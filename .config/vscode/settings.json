@@ -1,0 +1,95 @@
+{
+    // Font
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontSize": 24,
+
+    // File tree
+    "workbench.iconTheme":"ayu",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.indent": 14,
+
+    // Theme
+    "workbench.colorTheme": "Ayu Dark",
+
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    // Sidebar
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "hidden",
+
+    // Status bar
+    "workbench.statusBar.visible": false,
+
+    // Scroll panel
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.minimap.enabled": false,
+    "editor.matchBrackets": "never",
+    "editor.occurrencesHighlight": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.stickyScroll.enabled": false,
+
+    // File path
+    "breadcrumbs.enabled": false,
+
+    // Window management
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": true,
+    "window.customTitleBarVisibility": "never",
+    "window.titleBarStyle": "native",
+    "window.menuBarVisibility": "toggle",
+
+    // Zoom
+    "window.zoomLevel": 2,
+
+    // Tabs
+    "editor.tabSize": 4,
+
+    // Don't show all open tabs
+    "workbench.editor.showTabs": "single",
+
+    // Cursor
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.cursorBlinking": "phase",
+
+    // Hints
+    "workbench.tips.enabled": false,
+
+    // Code folding
+    "editor.showFoldingControls": "never",
+
+    // Light bulb icon
+    "editor.lightbulb.enabled": "off",
+
+    // Function signature
+    "editor.parameterHints.enabled": false,
+    "editor.hover.enabled": false,
+    "files.trimTrailingWhitespace": false,
+    "editor.links": false,
+
+    // Active line
+    "editor.renderLineHighlight": "none",
+
+    // Doesn't show spaces, tabs, etc.
+    "editor.renderWhitespace": "none",
+
+    // Vertical indentation lines in the editor
+    "editor.guides.indentation": false,
+
+    // Vertical indentation lines in the tree
+    "workbench.tree.renderIndentGuides":"none",
+
+    // Sticking Header in Tree
+    "workbench.tree.enableStickyScroll": false,
+
+    // AutoSave
+    "files.autoSave": "afterDelay",
+
+    // AutoUpdate
+    "update.mode": "none",
+
+    // Ignore recommendations
+    "extensions.ignoreRecommendations": true
+}

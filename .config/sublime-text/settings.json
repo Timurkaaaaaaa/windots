@@ -1,0 +1,21 @@
+{
+	"ignored_packages":
+	[
+		"Rust",
+		"Vintage",
+	],
+	"theme": "ayu-dark.sublime-theme",
+	"color_scheme": "ayu-dark.sublime-color-scheme",
+
+	"font_size": 23,
+	"default_font_size": 28,
+	"font_face": "JetBrainsMono Nerd Font",
+
+	"tab-size": 4,
+
+	"show_git_status": true,
+	"sidebar_on_right": true,
+	"folder_exclude_patterns": [],
+	"file_exclude_patterns": [],
+	"index_files": true,
+}

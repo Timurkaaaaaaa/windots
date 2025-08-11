@@ -1,0 +1,10 @@
+# List of plugins
+
+AutoFileName
+ayu
+BracketHighlighter
+ColorHighlighter
+Emmet
+FileIcons
+Package Control
+Rust Enhanced

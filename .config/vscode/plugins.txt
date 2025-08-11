@@ -1,0 +1,18 @@
+# List of plugins
+
+CodeLLDB
+Ayu
+
+Better C++ Syntax
+C/C++
+C/C++ Runner
+C/C++ Snippets
+C/C++ Themes
+
+HTML CSS Support
+HTML/CSS/JavaScript Snippets
+
+Pylance
+Python
+Python Debbuger
+Python Snippets

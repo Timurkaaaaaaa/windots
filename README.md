@@ -40,10 +40,7 @@
 - Using Debian as a subsystem
 ---
 # Installation
-> [!WARNING]
-> Configurations are written for 1920x1080 displays. Workspaces and other functions may not work correctly in case of other resolutions.
-
-Installation instructions are available in the files: EN, RU.
+Installation instructions are available in the files: [EN](docs/en-guide.md), [RU](docs/ru-guide.md).
 
 ---
 # HotKeys

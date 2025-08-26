@@ -6,8 +6,8 @@
 
 ### Быстрый доступ:
 1. Откройте реестр Windows с помощью `win + r` - `regedit`
-2. Перейдите в раздел
-```
+2. Перейдите в раздел:
+```bash
 HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder
 ```
 4. Нажмите правой кнопкой мыши по имени этого раздела, выберите пункт «Разрешения» в меню.
@@ -18,19 +18,19 @@ HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder
 9. Закрепите на панели быстрого доступа требуемые папки и ярлыки
 
 ### Галерея
-1. Перейдите в раздел
-```
+1. Перейдите в раздел:
+```bash
 HKEY_CURRENT_USER\Software\Classes\CLSID
 ```
-3. Создайте подраздел с именем
-```
+3. Создайте подраздел с именем:
+```bash
 {e88865ea-0e1c-4e20-9aa6-edcd0212c87c}
 ```
 7. Создайте DWORD параметр с именем `System.IsPinnedToNameSpaceTree`. Значение - **0**.
 
 ### OneDrive
-1. Перейдите в раздел
-```
+1. Перейдите в раздел:
+```bash
 HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}
 ```
 3. Измените параметр `System.IsPinnedToNameSpaceTree` на **0**
@@ -58,12 +58,12 @@ HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}
 ---
 
 # Visual Studio Code
-1. Используйте сочетание клавиш `ctrl + shift + p` и введите
-```
+1. Используйте сочетание клавиш `ctrl + shift + p` и введите:
+```bash
 > Preferences: Open User Settings (JSON)
 ```
 3. Используйте конфиг - [VSCode конфиг](.config/vscode/settings.json)
-4. Используйте сочетание клавиш `ctrl + shift + p` и введите
+4. Используйте сочетание клавиш `ctrl + shift + p` и введите:
 ```bash
 > Reload Vibrancy
 ```
@@ -89,9 +89,17 @@ HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}
 # Starship
 1. Используйте команду `winget install Starship` в powershell
 2. В папку `~/.config/` загрузите файл - [Starship конфиг](.config/starship.toml)
-3. Введите команду
-```bash
+3. Введите команду:
+```pwsh
 $ENV:STARSHIP_CONFIG = "$HOME\.config\starship.toml"
+```
+4. Используйте команду:
+```pwsh
+start $PROFILE
+```
+5. Добавьте в этот файл строку:
+```pwsh
+Invoke-Expression (&starship init powershell)
 ```
 
 

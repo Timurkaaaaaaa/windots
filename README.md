@@ -27,6 +27,7 @@
 ![gallery](demonstration/1.png)
 ![gallery](demonstration/2.png)
 ![gallery](demonstration/3.png)
+![gallery](demonstration/4.png)
 ---
 # Features
 - Beautiful acrylic blur
@@ -37,4 +38,20 @@
 - Windhawk mods configs
 - Beautiful browser
 - Using Debian as a subsystem
+---
+# Installation
+> [!WARNING]
+> Configurations are written for 1920x1080 displays. Workspaces and other functions may not work correctly in case of other resolutions.
 
+Installation instructions are available in the files: EN, RU.
+
+---
+# HotKeys
+- Open terminal - `win + enter`
+- Open Tiscord - `win + shift + D`
+- Open Delegram - `win + shift + T`
+- Color Picker - `win + shift + C`
+- Fancy Zones activate - `shift`
+- Fancy Zones editor - `win + shift + ~`
+- PowerToys Run - `alt + space`
+- Workspaces - `win + ctrl + ~`

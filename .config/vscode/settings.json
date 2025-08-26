@@ -1,0 +1,107 @@
+{
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'bold', 'bold'",
+    "editor.fontSize": 24,
+
+    // Tree
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.indent": 14,
+    "workbench.tree.renderIndentGuides": "none",
+
+    // Confirm
+    "explorer.confirmDragAndDrop": true,
+    "explorer.confirmDelete": true,
+
+
+    // Sidebar
+    "workbench.sideBar.location": "right",
+
+    // Status bar
+    "workbench.statusBar.visible": false,
+
+    // Scroll
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "visible",
+    "editor.minimap.enabled": false,
+    "editor.matchBrackets": "never",
+    "editor.occurrencesHighlight": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.stickyScroll.enabled": false,
+
+    // File path
+    "breadcrumbs.enabled": false,
+
+    // Control panel
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "window.customTitleBarVisibility": "windowed",
+    "window.titleBarStyle": "custom",
+    "window.menuBarVisibility": "hidden",
+
+    // Zoom
+    "window.zoomLevel": 1,
+
+    // Decorations
+    "explorer.decorations.badges": false,
+    "git.decorations.enabled": false,
+    "scm.diffDecorations": "none",
+
+    // Tabs
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+
+    // TODO Plugin
+    "todohighlight.isEnable": true,
+    
+    // Cursor
+    "editor.cursorBlinking": "expand",
+
+    // Tips
+    "workbench.tips.enabled": false,
+
+    // Folding
+    "editor.showFoldingControls": "never",
+
+    // Lightbulb
+    "editor.lightbulb.enabled":"off",
+
+    // Signature
+    "editor.parameterHints.enabled": false,
+    "editor.hover.enabled": false,
+    "files.trimTrailingWhitespace": false,
+    "editor.links": false,
+
+    // Line higlight
+    "editor.renderLineHighlight": "none",
+
+    // Indentation highlight
+    "editor.guides.indentation": false,
+    // Hide special characters
+    "editor.renderWhitespace": "none",
+
+    // Autosave
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+
+    // Autoupdate
+    "update.mode": "start",
+
+    // Extensions recommendations
+    "extensions.ignoreRecommendations": true,
+
+    // Vibrancy
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000"
+    },
+    "vscode_vibrancy.opacity": 0.45,
+    "workbench.colorTheme": "Tokyo Night Dark",
+    "terminal.integrated.gpuAcceleration": "off",
+    "window.systemColorTheme": "dark",
+    "window.autoDetectColorScheme": false,
+    "window.controlsStyle": "custom",
+    
+
+ 
+
+}

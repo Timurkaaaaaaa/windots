@@ -1,6 +1,6 @@
 <div align=center>
   <h1>
-    🪟 Timurkaaa windots 🪟
+    🪟 Timurkaaa's windots 🪟
   </h1>
 </div>
 

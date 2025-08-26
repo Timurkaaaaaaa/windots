@@ -102,6 +102,8 @@ start $PROFILE
 Invoke-Expression (&starship init powershell)
 ```
 
+---
+
 # Обои
 Я использую картинку из [Need for Speed™ Heat Deluxe Edition Upgrade](https://www.ea.com/games/need-for-speed/need-for-speed-heat/buy/addon/need-for-speed-heat-deluxe-edition-upgrade) - [Изображение](https://drop-assets.ea.com/images/20Dwl4UUku94FKgNAOHw91/ad3e2b12b09b78f62fca028072d3f687/OTMM_57492153_NFS_Heat_Deluxe_Key_Art_HORIZONTAL_RGB_10_.jpg?im=AspectCrop=(16,9),xPosition=0.583125,yPosition=0.5611111111111111;Resize=(1280)&q=85)
 

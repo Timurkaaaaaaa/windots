@@ -45,15 +45,21 @@ HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}
 
 ---
 
+# ExplorerBlurMica
+1. Установите [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica)
+2. В файле `config.ini` в разделе **[dark]** параметре **a** поставьте значение `120`
+   
+---
+
 # Windhawk
 1. Установите [**Windhawk**](https://windhawk.net/)
 2. Установите дополнения **Taskbar height and icon size**, **Windows 11 Notification Center Styler**, **Windows 11 Start Menu Styler** и **Windows 11 Taskbar Styler**
-3. Используйте конфиги из [папки](.config/windhawk) и используйте в дополнениях
+3. Используйте конфиги из [папки](../.config/windhawk) и используйте в дополнениях
 
 ---
 
 # PowerToys
-Используйте скриншоты из [папки](.config/powertoys) для настройки powertoys
+Используйте скриншоты из [папки](../.config/powertoys) для настройки powertoys
 
 ---
 
@@ -62,7 +68,7 @@ HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}
 ```bash
 > Preferences: Open User Settings (JSON)
 ```
-3. Используйте конфиг - [VSCode конфиг](.config/vscode/settings.json)
+3. Используйте конфиг - [VSCode конфиг](../.config/vscode/settings.json)
 4. Используйте сочетание клавиш `ctrl + shift + p` и введите:
 ```bash
 > Reload Vibrancy
@@ -75,20 +81,20 @@ HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}
 1. Установите тему [**Tokyo Night**](https://addons.mozilla.org/ru/firefox/addon/tokyo-night-theme-for-firefox/) и активируйте
 2. Установите дополнения [**NightTab**](https://addons.mozilla.org/ru/firefox/addon/nighttab/)
 3. Перейдите в настройки и выберите NightTab для новых вкладок
-4. Откройте новую вкладку, перейдите в параметры, пункт `Data` - `Restore` и используйте файл - [NightTab конфиг](.config/firefox/nighttab.json)
+4. Откройте новую вкладку, перейдите в параметры, пункт `Data` - `Restore` и используйте файл - [NightTab конфиг](../.config/firefox/nighttab.json)
 
 ---
 
 # Windows Terminal
 1. Перейдите в параметры
 2. Нажмите на кнопку `Открытие файла JSON` со знаком шестерни
-3. Замените содержимое на - [Terminal конфиг](.config/terminal/settings.json)
+3. Замените содержимое на - [Terminal конфиг](../.config/terminal/settings.json)
 
 ---
 
 # Starship
 1. Используйте команду `winget install Starship` в powershell
-2. В папку `~/.config/` загрузите файл - [Starship конфиг](.config/starship.toml)
+2. В папку `~/.config/` загрузите файл - [Starship конфиг](../.config/starship.toml)
 3. Введите команду:
 ```pwsh
 $ENV:STARSHIP_CONFIG = "$HOME\.config\starship.toml"
@@ -101,6 +107,12 @@ start $PROFILE
 ```pwsh
 Invoke-Expression (&starship init powershell)
 ```
+
+---
+
+# FastFetch
+1. Создайте папку `~/.config/fastfetch`
+2. Перенесите в неё файл - [FastFetch конфиг](../.config/fastfetch/config.jsonc)
 
 ---
 

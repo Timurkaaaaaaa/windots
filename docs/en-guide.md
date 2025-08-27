@@ -45,15 +45,21 @@ Follow the installation instructions from niivu<br>
 
 ---
 
+# ExplorerBlurMica
+1. Install [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica)
+2. In the `config.ini` file, in the **[dark]** section, set the **a** parameter to `120`
+
+---
+
 # Windhawk
 1. Install [**Windhawk**](https://windhawk.net/)
 2. Install the extensions **Taskbar height and icon size**, **Windows 11 Notification Center Styler**, **Windows 11 Start Menu Styler**, and **Windows 11 Taskbar Styler**.
-3. Use the configs from [the folder](.config/windhawk) and apply them in the extensions.
+3. Use the configs from [the folder](../.config/windhawk) and apply them in the extensions.
 
 ---
 
 # PowerToys
-Use the screenshots from [the folder](.config/powertoys) to configure PowerToys.
+Use the screenshots from [the folder](../.config/powertoys) to configure PowerToys.
 
 ---
 
@@ -62,7 +68,7 @@ Use the screenshots from [the folder](.config/powertoys) to configure PowerToys.
 ```bash
 > Preferences: Open User Settings (JSON)
 ```
-3. Use the config - [VSCode config](.config/vscode/settings.json).
+3. Use the config - [VSCode config](../.config/vscode/settings.json).
 4. Use the shortcut `ctrl + shift + p` and type:
 ```bash
 > Reload Vibrancy
@@ -82,13 +88,13 @@ Use the screenshots from [the folder](.config/powertoys) to configure PowerToys.
 # Windows Terminal
 1. Go to settings.
 2. Click on the `Open JSON file` button with the gear icon.
-3. Replace the content with - [Terminal config](.config/terminal/settings.json).
+3. Replace the content with - [Terminal config](../.config/terminal/settings.json).
 
 ---
 
 # Starship
 1. Use the command `winget install Starship` in PowerShell.
-2. Download the file to `~/.config/` - [Starship config](.config/starship.toml).
+2. Download the file to `~/.config/` - [Starship config](../.config/starship.toml).
 3. Enter the command:
 ```pwsh
 $ENV:STARSHIP_CONFIG = "$HOME\.config\starship.toml"
@@ -101,6 +107,12 @@ start $PROFILE
 ```pwsh
 Invoke-Expression (&starship init powershell)
 ```
+
+---
+
+# FastFetch
+1. Create a folder `~/.config/fastfetch`
+2. Move file to it - [FastFetch config](../.config/fastfetch/config.jsonc)
 
 ---
 
